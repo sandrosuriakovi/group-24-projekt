@@ -1,0 +1,152 @@
+/* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  header {
+    background: linear-gradient(135deg, #FF6B6B, #FFD93D);
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .me h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin-right: 20px;
+  }
+  
+  nav ul li {
+    font-size: 1.1rem;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #333;
+  }
+ a{
+    text-decoration: none;color: aliceblue;
+ }
+ .picture{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+ }
+ .imgimg{
+  border-radius: 20px;
+ }
+
+ .text{
+  display: flex;
+  justify-content: center;
+ }
+ .skills{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+ .skiller{
+    display: flex;
+    justify-content: center;
+ }
+ .projekts0{
+  display: flex;
+  justify-content: center;
+ }
+ .pr0{
+  display: flex;
+  justify-content: center;
+ }
+
+.inputs{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+ body {
+  font-family: Arial, sans-serif;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+footer p {
+  margin-bottom: 10px;
+}
+
+.social-links {
+  margin-top: 10px;
+}
+
+.social-links a {
+  color: #fff;
+  margin: 0 15px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+}
+
+
+/* Ensure the body takes full height */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+/* Use flexbox to keep footer at the bottom */
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Content section will take up available space */
+.content {
+  flex: 1;
+}
+
+/* Footer styling */
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
